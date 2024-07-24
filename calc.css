@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #0072A0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    height: 200px;
+    width: 280px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 30px;
+    color: #0072A0;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#sin{
+    height: 200px;
+    width: 280px;
+    font-weight: 100;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+    height: 20px;
+    width: 250px;
+    border: 2px gray solid;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: black;
+  }
+button{
+    height: 20px;
+    width: 280px;
+}
